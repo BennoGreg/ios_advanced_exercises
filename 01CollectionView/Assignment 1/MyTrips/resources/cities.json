@@ -1,0 +1,134 @@
+[
+    {
+        "name": "Vienna",
+        "country": "Austria",
+        "continent": "Europe",
+        "images": ["vienna.jpg"]
+    },
+    {
+        "name": "Linz",
+        "country": "Austria",
+        "continent": "Europe",
+        "images": ["linz.jpg"]
+    },
+    {
+        "name": "Salzburg",
+        "country": "Austria",
+        "continent": "Europe",
+        "images": ["salzburg.jpg"]
+    },
+    {
+        "name": "Innsbruck",
+        "country": "Austria",
+        "continent": "Europe",
+        "images": ["innsbruck.jpg"]
+    },
+    {
+        "name": "Berlin",
+        "country": "Germany",
+        "continent": "Europe",
+        "images": ["berlin.jpg"]
+    },
+    {
+        "name": "Hamburg",
+        "country": "Germany",
+        "continent": "Europe",
+        "images": ["hamburg.jpg"]
+    },
+    {
+        "name": "Cologne",
+        "country": "Germany",
+        "continent": "Europe",
+        "images": ["cologne.jpg"]
+    },
+    {
+        "name": "Munich",
+        "country": "Germany",
+        "continent": "Europe",
+        "images": ["munich.jpg"]
+    },
+    {
+        "name": "San Francisco",
+        "country": "USA",
+        "continent": "North America",
+        "images": ["san_francisco.jpg"]
+    },
+    {
+        "name": "Los Angeles",
+        "country": "USA",
+        "continent": "North America",
+        "images": ["los_angeles.jpg"]
+    },
+    {
+        "name": "New York",
+        "country": "USA",
+        "continent": "North America",
+        "images": ["new_york.jpg"]
+    },
+    {
+        "name": "Washington DC",
+        "country": "USA",
+        "continent": "North America",
+        "images": ["washington.jpg"]
+    },
+    {
+        "name": "Mexico City",
+        "country": "Mexico",
+        "continent": "South America",
+        "images": ["mexico_city.jpg"]
+    },
+    {
+        "name": "São Paulo",
+        "country": "Brazil",
+        "continent": "South America",
+        "images": ["sao_paulo.jpg"]
+    },
+    {
+        "name": "Buenos Aires",
+        "country": "Argentina",
+        "continent": "South America",
+        "images": ["buenos_aires.jpg"]
+    },
+    {
+        "name": "Sydney",
+        "country": "Australia",
+        "continent": "Australia",
+        "images": ["sydney.jpg"]
+    },
+    {
+        "name": "Cape Town",
+        "country": "South Africa",
+        "continent": "Africa",
+        "images": ["cape_town.jpg"]
+    },
+    {
+        "name": "Cairo",
+        "country": "Egypt",
+        "continent": "Africa",
+        "images": ["cairo.jpg"]
+    },
+    {
+        "name": "Beijing",
+        "country": "China",
+        "continent": "Asia",
+        "images": ["beijing.jpg"]
+    },
+    {
+        "name": "Tokyo",
+        "country": "Japan",
+        "continent": "Asia",
+        "images": ["tokyo.jpg"]
+    },
+    {
+        "name": "Moscow",
+        "country": "Russia",
+        "continent": "Europe",
+        "images": ["moscow.jpg"]
+    },
+    {
+        "name": "Toronto",
+        "country": "Canada",
+        "continent": "North America",
+        "images": ["toronto.jpg"]
+    }
+]

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "617CACAF-AAB7-40F1-9106-09EBEEACCAA4"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "DB9D527F-8F80-4FAC-94F7-B0B250D9F0A0"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "05testing_CalculatorTests/_5testing_CalculatorTests.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "118"
+            endingLineNumber = "118"
+            landmarkName = "testChainCalc()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A426B1C7-3BF5-43EA-A844-5539A58166DE"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "05testing_CalculatorTests/_5testing_CalculatorTests.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "117"
+            endingLineNumber = "117"
+            landmarkName = "testChainCalc()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "A426B1C7-3BF5-43EA-A844-5539A58166DE - 2d6df40b19ce99fb"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "_5testing_CalculatorTests._5testing_CalculatorTests.testChainCalc() throws -&gt; ()"
+                  moduleName = "05testing_CalculatorTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/benno/Library/Mobile%20Documents/com~apple~CloudDocs/FH/Semester%204/ADI/05testing_Calculator/05testing_CalculatorTests/_5testing_CalculatorTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "112"
+                  endingLineNumber = "112"
+                  offsetFromSymbolStart = "2139">
+               </Location>
+               <Location
+                  uuid = "A426B1C7-3BF5-43EA-A844-5539A58166DE - 7a49090e24787543"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #13 (Swift.Double) -&gt; () in _5testing_CalculatorTests._5testing_CalculatorTests.testChainCalc() throws -&gt; ()"
+                  moduleName = "05testing_CalculatorTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/benno/Library/Mobile%20Documents/com~apple~CloudDocs/FH/Semester%204/ADI/05testing_Calculator/05testing_CalculatorTests/_5testing_CalculatorTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "113"
+                  endingLineNumber = "113"
+                  offsetFromSymbolStart = "123">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A91077FF-A940-4C82-8452-1C69B647B2AD"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "05testing_CalculatorUITests/_5testing_CalculatorUITests.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "153"
+            endingLineNumber = "153"
+            landmarkName = "testExample()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

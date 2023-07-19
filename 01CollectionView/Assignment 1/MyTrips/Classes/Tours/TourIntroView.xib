@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16086"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="TourIntroView" customModule="MyTrips" customModuleProvider="target">
+            <connections>
+                <outlet property="backgroundImageView" destination="xoU-aB-5ag" id="eRi-eq-ZW8"/>
+                <outlet property="friendsLabel" destination="G6N-w1-5cd" id="FPk-Hi-R7d"/>
+                <outlet property="friendsLabelBottomConstraint" destination="xoU-aB-5ag" id="AML-AE-cgk"/>
+                <outlet property="startButton" destination="P6J-y3-4AD" id="EEM-3g-i46"/>
+                <outlet property="startButtonBottomConstraint" destination="gKz-GN-cRT" id="W7c-j0-pdK"/>
+                <outlet property="welcomeLabel" destination="man-c9-GYP" id="HPB-q0-3ra"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="Ajk-YL-z6x">
+            <rect key="frame" x="0.0" y="0.0" width="556" height="898"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="parked-red-vehicle-2119106.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="xoU-aB-5ag">
+                    <rect key="frame" x="0.0" y="0.0" width="556" height="864"/>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hello you" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="man-c9-GYP">
+                    <rect key="frame" x="213" y="204" width="130" height="36"/>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" placeholderIntrinsicWidth="510" placeholderIntrinsicHeight="77" text="Invite your friends and start tracking your tours. In this way you will never forget your journies!" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="A7l-dP-e2N">
+                    <rect key="frame" x="23" y="462" width="510" height="77"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="P6J-y3-4AD">
+                    <rect key="frame" x="203" y="651" width="150" height="50"/>
+                    <color key="backgroundColor" systemColor="linkColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="150" id="3zZ-aR-ahK"/>
+                        <constraint firstAttribute="height" constant="50" id="e4M-CV-Eeo"/>
+                    </constraints>
+                    <state key="normal" title="Button">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </state>
+                    <connections>
+                        <action selector="startButtonPressed:" destination="-1" eventType="touchUpInside" id="QcS-Qk-44z"/>
+                    </connections>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="5 friends have already tracked their journies" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="G6N-w1-5cd">
+                    <rect key="frame" x="20" y="768" width="516" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Track your tours" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UXC-1z-Buf">
+                    <rect key="frame" x="165" y="394" width="226" height="36"/>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+            <constraints>
+                <constraint firstItem="UXC-1z-Buf" firstAttribute="centerX" secondItem="Ajk-YL-z6x" secondAttribute="centerX" id="493-D4-w3d"/>
+                <constraint firstItem="s6B-1X-YHz" firstAttribute="trailing" secondItem="xoU-aB-5ag" secondAttribute="trailing" id="88X-mj-7YM"/>
+                <constraint firstItem="G6N-w1-5cd" firstAttribute="leading" secondItem="s6B-1X-YHz" secondAttribute="leading" constant="20" id="9Dk-2C-4Ft"/>
+                <constraint firstItem="A7l-dP-e2N" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="Ajk-YL-z6x" secondAttribute="leading" constant="20" id="BnM-Ey-eH7"/>
+                <constraint firstItem="s6B-1X-YHz" firstAttribute="bottom" secondItem="xoU-aB-5ag" secondAttribute="bottom" id="Ci3-tf-2f6"/>
+                <constraint firstItem="A7l-dP-e2N" firstAttribute="top" secondItem="UXC-1z-Buf" secondAttribute="bottom" constant="32" id="EBp-Tj-XV7"/>
+                <constraint firstItem="s6B-1X-YHz" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="man-c9-GYP" secondAttribute="trailing" constant="20" id="EUj-46-9Iv"/>
+                <constraint firstItem="s6B-1X-YHz" firstAttribute="bottom" secondItem="G6N-w1-5cd" secondAttribute="bottom" constant="75" id="Epw-Yc-lJb"/>
+                <constraint firstItem="man-c9-GYP" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="s6B-1X-YHz" secondAttribute="leading" constant="20" id="Esw-5W-PpI"/>
+                <constraint firstItem="man-c9-GYP" firstAttribute="top" secondItem="s6B-1X-YHz" secondAttribute="top" constant="160" id="F8Z-of-NKF"/>
+                <constraint firstItem="xoU-aB-5ag" firstAttribute="leading" secondItem="s6B-1X-YHz" secondAttribute="leading" id="Hff-Qc-Z54"/>
+                <constraint firstItem="UXC-1z-Buf" firstAttribute="top" secondItem="man-c9-GYP" secondAttribute="bottom" constant="154" id="JL7-Go-yoV"/>
+                <constraint firstItem="UXC-1z-Buf" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="s6B-1X-YHz" secondAttribute="leading" constant="20" id="Jt3-EI-gC6"/>
+                <constraint firstItem="A7l-dP-e2N" firstAttribute="centerX" secondItem="Ajk-YL-z6x" secondAttribute="centerX" id="PMl-sY-ehj"/>
+                <constraint firstItem="man-c9-GYP" firstAttribute="centerX" secondItem="Ajk-YL-z6x" secondAttribute="centerX" id="RPt-Nj-Urw"/>
+                <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="A7l-dP-e2N" secondAttribute="trailing" constant="20" id="VpV-m9-GIe"/>
+                <constraint firstItem="s6B-1X-YHz" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="UXC-1z-Buf" secondAttribute="trailing" constant="20" id="ey4-Da-MSm"/>
+                <constraint firstItem="s6B-1X-YHz" firstAttribute="bottom" secondItem="P6J-y3-4AD" secondAttribute="bottom" constant="163" id="gKz-GN-cRT"/>
+                <constraint firstItem="xoU-aB-5ag" firstAttribute="top" secondItem="Ajk-YL-z6x" secondAttribute="top" id="oHv-YL-P4E"/>
+                <constraint firstItem="P6J-y3-4AD" firstAttribute="centerX" secondItem="Ajk-YL-z6x" secondAttribute="centerX" id="r9k-4g-21a"/>
+                <constraint firstItem="P6J-y3-4AD" firstAttribute="centerX" secondItem="Ajk-YL-z6x" secondAttribute="centerX" id="sAQ-zH-J9p"/>
+                <constraint firstItem="s6B-1X-YHz" firstAttribute="trailing" secondItem="G6N-w1-5cd" secondAttribute="trailing" constant="20" id="wwS-0X-arP"/>
+            </constraints>
+            <nil key="simulatedTopBarMetrics"/>
+            <nil key="simulatedBottomBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="s6B-1X-YHz"/>
+            <point key="canvasLocation" x="404.34782608695656" y="213.61607142857142"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="parked-red-vehicle-2119106.jpg" width="418" height="601"/>
+    </resources>
+</document>

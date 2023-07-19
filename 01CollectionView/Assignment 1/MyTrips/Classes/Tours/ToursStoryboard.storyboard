@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="khM-fQ-em3">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16086"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Tours-->
+        <scene sceneID="kSK-aF-jVf">
+            <objects>
+                <navigationController storyboardIdentifier="tours" title="Tours" id="khM-fQ-em3" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Tours" image="mappin" catalog="system" selectedImage="mappin.and.ellipse" id="TbO-lM-Msx"/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="7YL-0X-fsl">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="dYq-lw-kWw" kind="relationship" relationship="rootViewController" id="kaJ-mB-ddn"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="o5l-tT-ZHU" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-551" y="-88"/>
+        </scene>
+        <!--Tours View Controller-->
+        <scene sceneID="OaU-zc-4iC">
+            <objects>
+                <viewController id="dYq-lw-kWw" customClass="ToursViewController" customModule="MyTrips" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="rH8-vH-Qc2">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eWT-fC-MEV" customClass="TourIntroView" customModule="MyTrips" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="88" width="414" height="725"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="eWT-fC-MEV" firstAttribute="leading" secondItem="dFt-S4-8SZ" secondAttribute="leading" id="BPu-lh-WLU"/>
+                            <constraint firstItem="dFt-S4-8SZ" firstAttribute="trailing" secondItem="eWT-fC-MEV" secondAttribute="trailing" id="n30-c9-feX"/>
+                            <constraint firstItem="eWT-fC-MEV" firstAttribute="top" secondItem="dFt-S4-8SZ" secondAttribute="top" id="rrn-Bs-xUT"/>
+                            <constraint firstItem="dFt-S4-8SZ" firstAttribute="bottom" secondItem="eWT-fC-MEV" secondAttribute="bottom" id="u1R-mo-QJX"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="dFt-S4-8SZ"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="08B-FO-8cB"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="LBT-1P-LCm" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="662" y="-127"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="mappin" catalog="system" width="105" height="128"/>
+        <image name="mappin.and.ellipse" catalog="system" width="118" height="128"/>
+    </resources>
+</document>
